@@ -1,0 +1,2097 @@
+2026-03-07 13:25:06,861 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:25:06,862 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpo0s3lml3\test.db
+2026-03-07 13:25:06,867 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:25:06,867 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:25:06,867 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:25:06,868 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:25:23,969 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:25:23,970 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpd28hijub\test.db
+2026-03-07 13:25:23,975 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:25:23,975 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:25:23,975 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:25:23,976 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:25:42,250 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:25:42,250 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpmgvayql2\test.db
+2026-03-07 13:25:42,254 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:25:42,255 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:25:42,256 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:25:42,257 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:26:03,518 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:26:03,518 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpweh306lw\test.db
+2026-03-07 13:26:03,524 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:26:03,524 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:26:03,524 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:26:03,524 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:26:03,586 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:26:03,588 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:26:03,589 - src.core - INFO - Database initialized
+2026-03-07 13:26:03,590 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpweh306lw\test.db
+2026-03-07 13:26:03,590 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": false,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": false,
+    "decay_enabled": false,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": false
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:26:30,535 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:26:30,536 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpqyz6y6p7\test.db
+2026-03-07 13:26:30,540 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:26:30,540 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:26:30,541 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:26:30,541 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:26:30,572 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:26:30,572 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:26:30,572 - src.core - INFO - Database initialized
+2026-03-07 13:26:30,573 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpqyz6y6p7\test.db
+2026-03-07 13:26:30,573 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": false,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": false,
+    "decay_enabled": false,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": false
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:26:30,577 - src.storage_enhanced - INFO - Stored memory 375cc1b9709168f7 (layer: episodic, type: conversation, importance: 0.50)
+2026-03-07 13:26:30,584 - src.core - INFO - Remembered memory 375cc1b9709168f7 (layer: episodic, type: conversation)
+2026-03-07 13:26:30,587 - src.storage_enhanced - INFO - Stored memory ea93b58db81cd2e6 (layer: semantic, type: fact, importance: 0.62)
+2026-03-07 13:26:30,592 - src.core - INFO - Remembered memory ea93b58db81cd2e6 (layer: semantic, type: fact)
+2026-03-07 13:26:30,593 - src.core - INFO - Recalled 0 memories for query: 合并
+2026-03-07 13:27:11,879 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:27:11,879 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp168uhnf0\test.db
+2026-03-07 13:27:11,882 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:27:11,882 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:27:11,882 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:27:11,882 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:27:11,899 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:27:11,899 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:27:11,899 - src.core - INFO - Database initialized
+2026-03-07 13:27:11,900 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp168uhnf0\test.db
+2026-03-07 13:27:11,900 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": false,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": false,
+    "decay_enabled": false,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": false
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:27:11,902 - src.storage_enhanced - INFO - Stored memory 17431fee79a4484b (layer: episodic, type: conversation, importance: 0.50)
+2026-03-07 13:27:11,906 - src.core - INFO - Remembered memory 17431fee79a4484b (layer: episodic, type: conversation)
+2026-03-07 13:27:11,909 - src.storage_enhanced - INFO - Stored memory c7c1623f59729c3f (layer: semantic, type: fact, importance: 0.62)
+2026-03-07 13:27:11,913 - src.core - INFO - Remembered memory c7c1623f59729c3f (layer: semantic, type: fact)
+2026-03-07 13:27:11,914 - src.core - INFO - Recalled 0 memories for query: 合并
+2026-03-07 13:27:11,918 - src.storage_enhanced - INFO - Forgot memory 17431fee79a4484b (compressed to 0.7x)
+2026-03-07 13:27:11,918 - src.core - INFO - Forgot memory 17431fee79a4484b (compressed storage)
+2026-03-07 13:27:11,919 - src.storage_enhanced - ERROR - Failed to decompress memory 17431fee79a4484b: 'utf-8' codec can't decode byte 0xe1 in position 5: invalid continuation byte
+2026-03-07 13:27:11,921 - src.storage_enhanced - ERROR - Failed to decompress memory 17431fee79a4484b: 'utf-8' codec can't decode byte 0xe1 in position 5: invalid continuation byte
+2026-03-07 13:27:11,922 - src.core - INFO - Woke up memory 17431fee79a4484b (urgency: normal)
+2026-03-07 13:27:11,948 - src.storage_enhanced - INFO - Backup created: C:\Users\Administrator\.meta-memory\backups\memory_backup_20260307_132711.db
+2026-03-07 13:27:11,949 - src.storage_enhanced - INFO - Maintenance completed: {'tasks': ['cleanup_expired_memories', 'optimize_database', 'create_backup', 'cleanup_old_backups'], 'details': {'expired_memories': 0, 'backup': 'C:\\Users\\Administrator\\.meta-memory\\backups\\memory_backup_20260307_132711.db', 'backups_cleaned': 0}}
+2026-03-07 13:27:11,949 - src.three_layer_memory - INFO - Three-layer memory maintenance completed
+2026-03-07 13:27:11,949 - src.core - INFO - Ran enhanced maintenance: 2 tasks completed
+2026-03-07 13:41:35,377 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,378 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmptzkj6syg\test.db
+2026-03-07 13:41:35,381 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,382 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,382 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,382 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,432 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,432 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,432 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,432 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmptzkj6syg\test.db
+2026-03-07 13:41:35,433 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,442 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,443 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp97evc5j5\test.db
+2026-03-07 13:41:35,444 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,444 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,444 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,445 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,477 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,477 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,477 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,478 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp97evc5j5\test.db
+2026-03-07 13:41:35,478 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,480 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,481 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpc8h0tm53\test.db
+2026-03-07 13:41:35,482 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,482 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,483 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,484 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,567 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,568 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,568 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,577 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpc8h0tm53\test.db
+2026-03-07 13:41:35,577 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,583 - src.storage_enhanced - INFO - Stored memory 6ff7a08cb8ea3ee2 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 13:41:35,596 - src.core - INFO - Remembered memory 6ff7a08cb8ea3ee2 (layer: semantic, type: fact)
+2026-03-07 13:41:35,600 - src.storage_enhanced - INFO - Forgot memory 6ff7a08cb8ea3ee2 (compressed to 0.7x)
+2026-03-07 13:41:35,600 - src.core - INFO - Forgot memory 6ff7a08cb8ea3ee2 (compressed storage)
+2026-03-07 13:41:35,600 - src.storage_enhanced - ERROR - Failed to decompress memory 6ff7a08cb8ea3ee2: 'utf-8' codec can't decode byte 0xe4 in position 5: invalid continuation byte
+2026-03-07 13:41:35,610 - src.storage_enhanced - ERROR - Failed to decompress memory 6ff7a08cb8ea3ee2: 'utf-8' codec can't decode byte 0xe4 in position 5: invalid continuation byte
+2026-03-07 13:41:35,612 - src.core - INFO - Woke up memory 6ff7a08cb8ea3ee2 (urgency: normal)
+2026-03-07 13:41:35,616 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,616 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp33hjujka\test.db
+2026-03-07 13:41:35,617 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,617 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,618 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,618 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,665 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,665 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,665 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,665 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp33hjujka\test.db
+2026-03-07 13:41:35,666 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,668 - src.storage_enhanced - INFO - Stored memory 32c73d057f72b911 (layer: semantic, type: fact, importance: 0.58)
+2026-03-07 13:41:35,680 - src.core - INFO - Remembered memory 32c73d057f72b911 (layer: semantic, type: fact)
+2026-03-07 13:41:35,682 - src.storage_enhanced - INFO - Forgot memory 32c73d057f72b911 (compressed to 0.7x)
+2026-03-07 13:41:35,682 - src.core - INFO - Forgot memory 32c73d057f72b911 (compressed storage)
+2026-03-07 13:41:35,683 - src.storage_enhanced - ERROR - Failed to decompress memory 32c73d057f72b911: 'utf-8' codec can't decode byte 0xe4 in position 5: invalid continuation byte
+2026-03-07 13:41:35,684 - src.storage_enhanced - ERROR - Failed to decompress memory 32c73d057f72b911: 'utf-8' codec can't decode byte 0xe4 in position 5: invalid continuation byte
+2026-03-07 13:41:35,695 - src.core - INFO - Woke up memory 32c73d057f72b911 (urgency: normal)
+2026-03-07 13:41:35,698 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,699 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp00gn8v62\test.db
+2026-03-07 13:41:35,700 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,701 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,701 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,701 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,744 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,745 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,745 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,745 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp00gn8v62\test.db
+2026-03-07 13:41:35,745 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,748 - src.storage_enhanced - INFO - Stored memory 0a1dbbf37f3e4767 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 13:41:35,762 - src.core - INFO - Remembered memory 0a1dbbf37f3e4767 (layer: semantic, type: fact)
+2026-03-07 13:41:35,765 - src.storage_enhanced - INFO - Forgot memory 0a1dbbf37f3e4767 (compressed to 0.6x)
+2026-03-07 13:41:35,765 - src.core - INFO - Forgot memory 0a1dbbf37f3e4767 (compressed storage)
+2026-03-07 13:41:35,766 - src.storage_enhanced - ERROR - Failed to decompress memory 0a1dbbf37f3e4767: 'utf-8' codec can't decode byte 0xed in position 5: invalid continuation byte
+2026-03-07 13:41:35,768 - src.storage_enhanced - ERROR - Failed to decompress memory 0a1dbbf37f3e4767: 'utf-8' codec can't decode byte 0xed in position 5: invalid continuation byte
+2026-03-07 13:41:35,779 - src.core - INFO - Woke up memory 0a1dbbf37f3e4767 (urgency: normal)
+2026-03-07 13:41:35,783 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,783 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp_akhp24e\test.db
+2026-03-07 13:41:35,784 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,784 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,785 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,785 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,829 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,829 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,829 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,829 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp_akhp24e\test.db
+2026-03-07 13:41:35,829 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:41:35,832 - src.storage_enhanced - INFO - Stored memory f57b1eefc56dbbe4 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 13:41:35,845 - src.core - INFO - Remembered memory f57b1eefc56dbbe4 (layer: semantic, type: fact)
+2026-03-07 13:41:35,845 - src.core - INFO - Shared memory f57b1eefc56dbbe4 with agent agent2 (permission: read)
+2026-03-07 13:41:35,846 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 13:41:35,849 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:41:35,849 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpmxc2db6u\test.db
+2026-03-07 13:41:35,850 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:41:35,851 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:41:35,851 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:41:35,851 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:41:35,899 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:41:35,899 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:41:35,899 - src.core - INFO - Database initialized
+2026-03-07 13:41:35,899 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpmxc2db6u\test.db
+2026-03-07 13:41:35,900 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 13:58:53,100 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 13:58:53,102 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpowujcklj\debug.db
+2026-03-07 13:58:53,113 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 13:58:53,113 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 13:58:53,113 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 13:58:53,114 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 13:58:53,152 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 13:58:53,152 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 13:58:53,153 - src.core - INFO - Database initialized
+2026-03-07 13:58:53,153 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpowujcklj\debug.db
+2026-03-07 13:58:53,153 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:00:13,729 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:00:13,730 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp50w2zl40\debug.db
+2026-03-07 14:00:13,735 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:00:13,735 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:00:13,735 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:00:13,736 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:00:13,785 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:00:13,786 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:00:13,786 - src.core - INFO - Database initialized
+2026-03-07 14:00:13,786 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp50w2zl40\debug.db
+2026-03-07 14:00:13,786 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:00:13,797 - src.storage_enhanced - INFO - Stored memory 2afa044b3771cf21 (layer: semantic, type: fact, importance: 0.55)
+2026-03-07 14:00:13,803 - src.core - INFO - Remembered memory 2afa044b3771cf21 (layer: semantic, type: fact)
+2026-03-07 14:00:13,818 - src.predictive_wakeup - INFO - Predictive wakeup: context=共享..., predicted=0, woken=0
+2026-03-07 14:00:13,818 - src.core - INFO - Recalled 1 memories for query: 共享
+2026-03-07 14:00:13,819 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:00:13,820 - src.core - INFO - Shared memory 2afa044b3771cf21 with agent agent2 (permission: read)
+2026-03-07 14:00:13,821 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:00:13,830 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:04:00,777 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:04:00,780 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmphl90zn9x\debug.db
+2026-03-07 14:04:00,784 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:04:00,785 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:04:00,786 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:04:00,787 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:04:00,873 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:04:00,873 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:04:00,874 - src.core - INFO - Database initialized
+2026-03-07 14:04:00,875 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmphl90zn9x\debug.db
+2026-03-07 14:04:00,876 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:04:00,883 - src.storage_enhanced - INFO - Stored memory 82eb06b7b868db97 (layer: semantic, type: fact, importance: 0.55)
+2026-03-07 14:04:00,891 - src.core - INFO - Remembered memory 82eb06b7b868db97 (layer: semantic, type: fact)
+2026-03-07 14:04:00,897 - src.predictive_wakeup - INFO - Predictive wakeup: context=共享..., predicted=0, woken=0
+2026-03-07 14:04:00,898 - src.core - INFO - Recalled 1 memories for query: 共享
+2026-03-07 14:04:00,899 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:04:38,455 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:04:38,455 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpvtra2aox\debug.db
+2026-03-07 14:04:38,459 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:04:38,459 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:04:38,460 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:04:38,460 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:04:38,487 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:04:38,487 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:04:38,487 - src.core - INFO - Database initialized
+2026-03-07 14:04:38,488 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpvtra2aox\debug.db
+2026-03-07 14:04:38,488 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:04:38,490 - src.storage_enhanced - INFO - Stored memory 7f9fb2a6a515548b (layer: semantic, type: fact, importance: 0.55)
+2026-03-07 14:04:38,496 - src.core - INFO - Remembered memory 7f9fb2a6a515548b (layer: semantic, type: fact)
+2026-03-07 14:04:38,498 - src.predictive_wakeup - INFO - Predictive wakeup: context=共享..., predicted=0, woken=0
+2026-03-07 14:04:38,500 - src.core - INFO - Recalled 1 memories for query: 共享
+2026-03-07 14:04:38,502 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:04:38,503 - src.core - INFO - Shared memory 7f9fb2a6a515548b with agent agent2 (permission: read)
+2026-03-07 14:04:38,505 - src.predictive_wakeup - INFO - Predictive wakeup: context=共享..., predicted=0, woken=0
+2026-03-07 14:04:38,505 - src.core - INFO - Recalled 1 memories for query: 共享
+2026-03-07 14:04:38,506 - src.core - INFO - Recalled 0 memories for query: 共享
+2026-03-07 14:04:38,511 - src.core - INFO - Retrieved memory 7f9fb2a6a515548b for agent agent2
+2026-03-07 14:07:32,397 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:07:32,397 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpl8wqxcuq\final_test.db
+2026-03-07 14:07:32,401 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:07:32,401 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:07:32,402 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:07:32,402 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:07:32,424 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:07:32,424 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:07:32,424 - src.core - INFO - Database initialized
+2026-03-07 14:07:32,425 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpl8wqxcuq\final_test.db
+2026-03-07 14:07:32,425 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:07:32,427 - src.storage_enhanced - INFO - Stored memory 7f77dce3a31d5927 (layer: semantic, type: preference, importance: 0.56)
+2026-03-07 14:07:32,432 - src.core - INFO - Remembered memory 7f77dce3a31d5927 (layer: semantic, type: preference)
+2026-03-07 14:07:32,433 - src.core - INFO - Shared memory 7f77dce3a31d5927 with agent assistant_agent (permission: read)
+2026-03-07 14:07:32,434 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:07:32,436 - src.core - INFO - Retrieved memory 7f77dce3a31d5927 for agent assistant_agent
+2026-03-07 14:07:32,437 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:07:32,440 - src.storage_enhanced - INFO - Forgot memory 7f77dce3a31d5927 (compressed to 0.8x)
+2026-03-07 14:07:32,440 - src.core - INFO - Forgot memory 7f77dce3a31d5927 (compressed storage)
+2026-03-07 14:07:32,441 - src.storage_enhanced - ERROR - Failed to decompress memory 7f77dce3a31d5927: 'utf-8' codec can't decode byte 0xc3 in position 5: invalid continuation byte
+2026-03-07 14:07:32,443 - src.storage_enhanced - ERROR - Failed to decompress memory 7f77dce3a31d5927: 'utf-8' codec can't decode byte 0xc3 in position 5: invalid continuation byte
+2026-03-07 14:07:32,444 - src.core - INFO - Woke up memory 7f77dce3a31d5927 (urgency: normal)
+2026-03-07 14:07:32,448 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:07:32,448 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp1gjont5p\encoding_test.db
+2026-03-07 14:07:32,449 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:07:32,450 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:07:32,450 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:07:32,450 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:07:32,471 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:07:32,471 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:07:32,472 - src.core - INFO - Database initialized
+2026-03-07 14:07:32,472 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp1gjont5p\encoding_test.db
+2026-03-07 14:07:32,472 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:07:32,485 - src.storage_enhanced - INFO - Stored memory 620616c03ff91289 (layer: semantic, type: fact, importance: 0.51)
+2026-03-07 14:07:32,492 - src.core - INFO - Remembered memory 620616c03ff91289 (layer: semantic, type: fact)
+2026-03-07 14:07:32,493 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:07:32,495 - src.storage_enhanced - INFO - Forgot memory 620616c03ff91289 (compressed to 0.9x)
+2026-03-07 14:07:32,495 - src.core - INFO - Forgot memory 620616c03ff91289 (compressed storage)
+2026-03-07 14:07:32,496 - src.storage_enhanced - ERROR - Failed to decompress memory 620616c03ff91289: 'utf-8' codec can't decode byte 0xd0 in position 10: invalid continuation byte
+2026-03-07 14:07:32,498 - src.storage_enhanced - ERROR - Failed to decompress memory 620616c03ff91289: 'utf-8' codec can't decode byte 0xd0 in position 10: invalid continuation byte
+2026-03-07 14:07:32,499 - src.core - INFO - Woke up memory 620616c03ff91289 (urgency: normal)
+2026-03-07 14:07:32,502 - src.storage_enhanced - INFO - Stored memory c2156f5434513727 (layer: semantic, type: fact, importance: 0.43)
+2026-03-07 14:07:32,507 - src.core - INFO - Remembered memory c2156f5434513727 (layer: semantic, type: fact)
+2026-03-07 14:07:32,529 - src.storage_enhanced - INFO - Backup created: C:\Users\Administrator\.meta-memory\backups\memory_backup_20260307_140732.db
+2026-03-07 14:07:32,530 - src.storage_enhanced - INFO - Maintenance completed: {'tasks': ['cleanup_expired_memories', 'optimize_database', 'create_backup', 'cleanup_old_backups'], 'details': {'expired_memories': 0, 'backup': 'C:\\Users\\Administrator\\.meta-memory\\backups\\memory_backup_20260307_140732.db', 'backups_cleaned': 0}}
+2026-03-07 14:07:32,530 - src.three_layer_memory - INFO - Three-layer memory maintenance completed
+2026-03-07 14:07:32,530 - src.predictive_wakeup - INFO - Predictive wakeup maintenance completed: {'tasks': ['cleaned_expired_cache'], 'cleaned_cache_entries': 0, 'cleaned_old_predictions': 0}
+2026-03-07 14:07:32,530 - src.core - INFO - Ran enhanced maintenance: 5 tasks completed
+2026-03-07 14:08:57,955 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:08:57,955 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmptv9p5jke\search_test.db
+2026-03-07 14:08:57,959 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:08:57,959 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:08:57,960 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:08:57,960 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:08:57,989 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:08:57,989 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:08:57,989 - src.core - INFO - Database initialized
+2026-03-07 14:08:57,989 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmptv9p5jke\search_test.db
+2026-03-07 14:08:57,990 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:08:57,993 - src.storage_enhanced - INFO - Stored memory 54092937e051eeed (layer: semantic, type: preference, importance: 0.50)
+2026-03-07 14:08:58,000 - src.core - INFO - Remembered memory 54092937e051eeed (layer: semantic, type: preference)
+2026-03-07 14:08:58,001 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:08:58,002 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:08:58,003 - src.core - INFO - Recalled 0 memories for query: 主题
+2026-03-07 14:08:58,005 - src.core - INFO - Recalled 0 memories for query: 用户
+2026-03-07 14:08:58,006 - src.core - INFO - Recalled 0 memories for query: 用户偏好设
+2026-03-07 14:08:58,007 - src.core - INFO - Shared memory 54092937e051eeed with agent agent2 (permission: read)
+2026-03-07 14:08:58,008 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:08:58,009 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:08:58,010 - src.core - INFO - Recalled 0 memories for query: 主题
+2026-03-07 14:08:58,011 - src.core - INFO - Recalled 0 memories for query: 用户
+2026-03-07 14:08:58,012 - src.core - INFO - Recalled 0 memories for query: 用户偏好设
+2026-03-07 14:08:58,014 - src.core - INFO - Retrieved memory 54092937e051eeed for agent agent2
+2026-03-07 14:09:41,675 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:09:41,676 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmprlswofoo\search_test.db
+2026-03-07 14:09:41,679 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:09:41,680 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:09:41,690 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:09:41,691 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:09:41,923 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:09:41,924 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:09:41,924 - src.core - INFO - Database initialized
+2026-03-07 14:09:41,925 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmprlswofoo\search_test.db
+2026-03-07 14:09:41,925 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:09:41,928 - src.storage_enhanced - INFO - Stored memory d3a75e16443ad347 (layer: semantic, type: preference, importance: 0.50)
+2026-03-07 14:09:41,935 - src.core - INFO - Remembered memory d3a75e16443ad347 (layer: semantic, type: preference)
+2026-03-07 14:09:41,944 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:09:41,945 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:09:41,945 - src.core - INFO - Recalled 0 memories for query: 主题
+2026-03-07 14:09:41,947 - src.core - INFO - Recalled 0 memories for query: 用户
+2026-03-07 14:09:41,951 - src.core - INFO - Recalled 0 memories for query: 用户偏好设
+2026-03-07 14:09:41,954 - src.core - INFO - Shared memory d3a75e16443ad347 with agent agent2 (permission: read)
+2026-03-07 14:09:41,956 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:09:41,957 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:09:41,958 - src.core - INFO - Recalled 0 memories for query: 主题
+2026-03-07 14:09:41,959 - src.core - INFO - Recalled 0 memories for query: 用户
+2026-03-07 14:09:41,960 - src.core - INFO - Recalled 0 memories for query: 用户偏好设
+2026-03-07 14:09:41,963 - src.core - INFO - Retrieved memory d3a75e16443ad347 for agent agent2
+2026-03-07 14:10:33,141 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:10:33,142 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpkqzyo5r1\simple.db
+2026-03-07 14:10:33,155 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:10:33,155 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:10:33,155 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:10:33,156 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:10:33,208 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:10:33,208 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:10:33,208 - src.core - INFO - Database initialized
+2026-03-07 14:10:33,208 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpkqzyo5r1\simple.db
+2026-03-07 14:10:33,209 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:10:33,219 - src.storage_enhanced - INFO - Stored memory b1653219dc338126 (layer: semantic, type: preference, importance: 0.51)
+2026-03-07 14:10:33,224 - src.core - INFO - Remembered memory b1653219dc338126 (layer: semantic, type: preference)
+2026-03-07 14:10:33,237 - src.predictive_wakeup - INFO - Predictive wakeup: context=dark..., predicted=1, woken=0
+2026-03-07 14:10:33,237 - src.core - INFO - Recalled 1 memories for query: dark
+2026-03-07 14:10:33,239 - src.storage_enhanced - INFO - Stored memory 245249a868abf2b1 (layer: semantic, type: fact, importance: 0.42)
+2026-03-07 14:10:33,250 - src.core - INFO - Remembered memory 245249a868abf2b1 (layer: semantic, type: fact)
+2026-03-07 14:10:33,253 - src.core - INFO - Recalled 0 memories for query: 测试
+2026-03-07 14:10:33,255 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:10:33,257 - src.core - INFO - Recalled 0 memories for query: 搜索
+2026-03-07 14:10:33,259 - src.core - INFO - Recalled 0 memories for query: 功能
+2026-03-07 14:10:33,269 - src.core - INFO - Recalled 0 memories for query: 测试中文
+2026-03-07 14:10:33,271 - src.predictive_wakeup - INFO - Predictive wakeup: context=..., predicted=0, woken=0
+2026-03-07 14:10:33,271 - src.core - INFO - Recalled 2 memories for query: 
+2026-03-07 14:11:19,727 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:11:19,727 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp315d0qof\simple.db
+2026-03-07 14:11:19,731 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:11:19,731 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:11:19,731 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:11:19,731 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:11:19,753 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:11:19,754 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:11:19,754 - src.core - INFO - Database initialized
+2026-03-07 14:11:19,754 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp315d0qof\simple.db
+2026-03-07 14:11:19,754 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:11:19,757 - src.storage_enhanced - INFO - Stored memory faebaf6af14b8f67 (layer: semantic, type: preference, importance: 0.51)
+2026-03-07 14:11:19,763 - src.core - INFO - Remembered memory faebaf6af14b8f67 (layer: semantic, type: preference)
+2026-03-07 14:11:19,768 - src.predictive_wakeup - INFO - Predictive wakeup: context=dark..., predicted=1, woken=0
+2026-03-07 14:11:19,769 - src.core - INFO - Recalled 1 memories for query: dark
+2026-03-07 14:11:19,771 - src.storage_enhanced - INFO - Stored memory 583de5376e0015eb (layer: semantic, type: fact, importance: 0.42)
+2026-03-07 14:11:19,776 - src.core - INFO - Remembered memory 583de5376e0015eb (layer: semantic, type: fact)
+2026-03-07 14:11:19,779 - src.core - INFO - Recalled 0 memories for query: 测试
+2026-03-07 14:11:19,781 - src.core - INFO - Recalled 0 memories for query: 中文
+2026-03-07 14:11:19,782 - src.core - INFO - Recalled 0 memories for query: 搜索
+2026-03-07 14:11:19,783 - src.core - INFO - Recalled 0 memories for query: 功能
+2026-03-07 14:11:19,784 - src.core - INFO - Recalled 0 memories for query: 测试中文
+2026-03-07 14:11:19,785 - src.predictive_wakeup - INFO - Predictive wakeup: context=..., predicted=0, woken=0
+2026-03-07 14:11:19,785 - src.core - INFO - Recalled 2 memories for query: 
+2026-03-07 14:12:04,383 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:12:04,383 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpl_9te8nq\direct.db
+2026-03-07 14:12:04,386 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:12:04,386 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:12:04,386 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:12:04,386 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:12:04,418 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:12:04,418 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:12:04,418 - src.core - INFO - Database initialized
+2026-03-07 14:12:04,418 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpl_9te8nq\direct.db
+2026-03-07 14:12:04,418 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:12:04,421 - src.storage_enhanced - INFO - Stored memory 6433f0170aa9a31a (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:12:04,427 - src.core - INFO - Remembered memory 6433f0170aa9a31a (layer: semantic, type: fact)
+2026-03-07 14:12:04,437 - src.storage_enhanced - INFO - Stored memory 5878e72a094024f0 (layer: semantic, type: fact, importance: 0.43)
+2026-03-07 14:12:04,441 - src.core - INFO - Remembered memory 5878e72a094024f0 (layer: semantic, type: fact)
+2026-03-07 14:12:04,449 - src.predictive_wakeup - INFO - Predictive wakeup: context=English..., predicted=1, woken=0
+2026-03-07 14:12:04,450 - src.core - INFO - Recalled 1 memories for query: English
+2026-03-07 14:12:54,884 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:12:54,884 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpi7cpdllu\debug.db
+2026-03-07 14:12:54,887 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:12:54,887 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:12:54,887 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:12:54,888 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:12:54,907 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:12:54,908 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:12:54,909 - src.core - INFO - Database initialized
+2026-03-07 14:12:54,909 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpi7cpdllu\debug.db
+2026-03-07 14:12:54,909 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:12:54,912 - src.storage_enhanced - INFO - Stored memory 4be21a2f4ac1778f (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:12:54,916 - src.core - INFO - Remembered memory 4be21a2f4ac1778f (layer: semantic, type: fact)
+2026-03-07 14:13:59,592 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:13:59,592 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpmra_g0_a\debug.db
+2026-03-07 14:13:59,604 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:13:59,604 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:13:59,604 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:13:59,605 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:13:59,641 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:13:59,641 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:13:59,642 - src.core - INFO - Database initialized
+2026-03-07 14:13:59,642 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpmra_g0_a\debug.db
+2026-03-07 14:13:59,642 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:13:59,653 - src.storage_enhanced - INFO - Stored memory 7d84178f0cb132c5 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:13:59,658 - src.core - INFO - Remembered memory 7d84178f0cb132c5 (layer: semantic, type: fact)
+2026-03-07 14:14:19,677 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:14:19,678 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpf4h8s58b\final_test.db
+2026-03-07 14:14:19,681 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:14:19,681 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:14:19,681 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:14:19,681 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:14:19,731 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:14:19,731 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:14:19,732 - src.core - INFO - Database initialized
+2026-03-07 14:14:19,732 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpf4h8s58b\final_test.db
+2026-03-07 14:14:19,741 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:14:19,745 - src.storage_enhanced - INFO - Stored memory dccde5c80117c81f (layer: semantic, type: preference, importance: 0.56)
+2026-03-07 14:14:19,758 - src.core - INFO - Remembered memory dccde5c80117c81f (layer: semantic, type: preference)
+2026-03-07 14:14:19,759 - src.core - INFO - Shared memory dccde5c80117c81f with agent assistant_agent (permission: read)
+2026-03-07 14:14:19,761 - src.predictive_wakeup - INFO - Predictive wakeup: context=偏好..., predicted=0, woken=0
+2026-03-07 14:14:19,762 - src.core - INFO - Recalled 1 memories for query: 偏好
+2026-03-07 14:14:19,763 - src.core - INFO - Retrieved memory dccde5c80117c81f for agent assistant_agent
+2026-03-07 14:14:19,764 - src.core - INFO - Recalled 0 memories for query: 偏好
+2026-03-07 14:14:19,774 - src.storage_enhanced - INFO - Forgot memory dccde5c80117c81f (compressed to 0.8x)
+2026-03-07 14:14:19,775 - src.core - INFO - Forgot memory dccde5c80117c81f (compressed storage)
+2026-03-07 14:14:19,778 - src.storage_enhanced - ERROR - Failed to decompress memory dccde5c80117c81f: name 'MemoryState' is not defined
+2026-03-07 14:14:19,780 - src.storage_enhanced - ERROR - Failed to decompress memory dccde5c80117c81f: name 'MemoryState' is not defined
+2026-03-07 14:14:19,781 - src.core - INFO - Woke up memory dccde5c80117c81f (urgency: normal)
+2026-03-07 14:14:19,791 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:14:19,792 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpntyu789w\encoding_test.db
+2026-03-07 14:14:19,795 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:14:19,795 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:14:19,795 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:14:19,795 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:14:19,830 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:14:19,830 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:14:19,830 - src.core - INFO - Database initialized
+2026-03-07 14:14:19,830 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpntyu789w\encoding_test.db
+2026-03-07 14:14:19,831 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:14:19,848 - src.storage_enhanced - INFO - Stored memory 59f19d17d7b20240 (layer: semantic, type: fact, importance: 0.51)
+2026-03-07 14:14:19,860 - src.core - INFO - Remembered memory 59f19d17d7b20240 (layer: semantic, type: fact)
+2026-03-07 14:14:19,862 - src.predictive_wakeup - INFO - Predictive wakeup: context=中文..., predicted=0, woken=0
+2026-03-07 14:14:19,862 - src.core - INFO - Recalled 1 memories for query: 中文
+2026-03-07 14:16:43,567 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:16:43,576 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp7k0tznf3\test.db
+2026-03-07 14:16:43,580 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:16:43,580 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:16:43,580 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:16:43,581 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:16:43,627 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:16:43,628 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:16:43,628 - src.core - INFO - Database initialized
+2026-03-07 14:16:43,628 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp7k0tznf3\test.db
+2026-03-07 14:16:43,628 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:16:43,632 - src.storage_enhanced - INFO - Stored memory 45c6a1df1d877cf1 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:16:43,647 - src.core - INFO - Remembered memory 45c6a1df1d877cf1 (layer: semantic, type: fact)
+2026-03-07 14:16:43,648 - src.core - INFO - Shared memory 45c6a1df1d877cf1 with agent agent2 (permission: read)
+2026-03-07 14:16:43,650 - src.predictive_wakeup - INFO - Predictive wakeup: context=测试..., predicted=0, woken=0
+2026-03-07 14:16:43,650 - src.core - INFO - Recalled 1 memories for query: 测试
+2026-03-07 14:16:43,660 - src.core - INFO - Retrieved memory 45c6a1df1d877cf1 for agent agent2
+2026-03-07 14:16:43,664 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:16:43,665 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpuu7gdf_x\encoding.db
+2026-03-07 14:16:43,666 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:16:43,667 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:16:43,667 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:16:43,667 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:16:43,717 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:16:43,726 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:16:43,726 - src.core - INFO - Database initialized
+2026-03-07 14:16:43,726 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpuu7gdf_x\encoding.db
+2026-03-07 14:16:43,726 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:16:43,730 - src.storage_enhanced - INFO - Stored memory 9233d91ba61fb8b3 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:16:43,743 - src.core - INFO - Remembered memory 9233d91ba61fb8b3 (layer: semantic, type: fact)
+2026-03-07 14:16:43,745 - src.predictive_wakeup - INFO - Predictive wakeup: context=中文..., predicted=0, woken=0
+2026-03-07 14:16:43,745 - src.core - INFO - Recalled 1 memories for query: 中文
+2026-03-07 14:16:43,749 - src.storage_enhanced - INFO - Forgot memory 9233d91ba61fb8b3 (compressed to 0.7x)
+2026-03-07 14:16:43,749 - src.core - INFO - Forgot memory 9233d91ba61fb8b3 (compressed storage)
+2026-03-07 14:16:43,750 - src.storage_enhanced - ERROR - Failed to decompress memory 9233d91ba61fb8b3: name 'MemoryState' is not defined
+2026-03-07 14:16:43,760 - src.storage_enhanced - ERROR - Failed to decompress memory 9233d91ba61fb8b3: name 'MemoryState' is not defined
+2026-03-07 14:16:43,762 - src.core - INFO - Woke up memory 9233d91ba61fb8b3 (urgency: normal)
+2026-03-07 14:17:35,658 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:17:35,658 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp3efgjnyl\test.db
+2026-03-07 14:17:35,662 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:17:35,662 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:17:35,663 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:17:35,663 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:17:35,683 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:17:35,684 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:17:35,685 - src.core - INFO - Database initialized
+2026-03-07 14:17:35,686 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp3efgjnyl\test.db
+2026-03-07 14:17:35,686 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:17:35,690 - src.storage_enhanced - INFO - Stored memory 36d7f9b2d828b75a (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:17:35,697 - src.core - INFO - Remembered memory 36d7f9b2d828b75a (layer: semantic, type: fact)
+2026-03-07 14:17:35,700 - src.core - INFO - Shared memory 36d7f9b2d828b75a with agent agent2 (permission: read)
+2026-03-07 14:17:35,701 - src.predictive_wakeup - INFO - Predictive wakeup: context=测试..., predicted=0, woken=0
+2026-03-07 14:17:35,703 - src.core - INFO - Recalled 1 memories for query: 测试
+2026-03-07 14:17:35,706 - src.core - INFO - Retrieved memory 36d7f9b2d828b75a for agent agent2
+2026-03-07 14:17:35,725 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:17:35,725 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpiyr4x50a\encoding.db
+2026-03-07 14:17:35,726 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:17:35,726 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:17:35,727 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:17:35,728 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:17:35,747 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:17:35,747 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:17:35,747 - src.core - INFO - Database initialized
+2026-03-07 14:17:35,749 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpiyr4x50a\encoding.db
+2026-03-07 14:17:35,749 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:17:35,751 - src.storage_enhanced - INFO - Stored memory a7fcd8eec496d56f (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:17:35,755 - src.core - INFO - Remembered memory a7fcd8eec496d56f (layer: semantic, type: fact)
+2026-03-07 14:17:35,756 - src.predictive_wakeup - INFO - Predictive wakeup: context=中文..., predicted=0, woken=0
+2026-03-07 14:17:35,756 - src.core - INFO - Recalled 1 memories for query: 中文
+2026-03-07 14:17:35,759 - src.storage_enhanced - INFO - Forgot memory a7fcd8eec496d56f (compressed to 0.7x)
+2026-03-07 14:17:35,759 - src.core - INFO - Forgot memory a7fcd8eec496d56f (compressed storage)
+2026-03-07 14:17:35,760 - src.storage_enhanced - ERROR - Failed to decompress memory a7fcd8eec496d56f: name 'MemoryState' is not defined
+2026-03-07 14:17:35,761 - src.storage_enhanced - ERROR - Failed to decompress memory a7fcd8eec496d56f: name 'MemoryState' is not defined
+2026-03-07 14:17:35,762 - src.core - INFO - Woke up memory a7fcd8eec496d56f (urgency: normal)
+2026-03-07 14:19:43,155 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:19:43,155 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp4qdi9em_\test.db
+2026-03-07 14:19:43,158 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:19:43,158 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:19:43,158 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:19:43,158 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:19:43,176 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:19:43,176 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:19:43,176 - src.core - INFO - Database initialized
+2026-03-07 14:19:43,176 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp4qdi9em_\test.db
+2026-03-07 14:19:43,177 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:19:43,179 - src.storage_enhanced - INFO - Stored memory 366f4eb3e34ae7e9 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:19:43,182 - src.core - INFO - Remembered memory 366f4eb3e34ae7e9 (layer: semantic, type: fact)
+2026-03-07 14:20:29,268 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:20:29,269 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmpa_m03nsi\test.db
+2026-03-07 14:20:29,272 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:20:29,273 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:20:29,273 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:20:29,273 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:20:29,293 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:20:29,293 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:20:29,293 - src.core - INFO - Database initialized
+2026-03-07 14:20:29,294 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmpa_m03nsi\test.db
+2026-03-07 14:20:29,294 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:20:29,296 - src.storage_enhanced - INFO - Stored memory d54d7409524410ab (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:20:29,299 - src.core - INFO - Remembered memory d54d7409524410ab (layer: semantic, type: fact)
+2026-03-07 14:21:06,339 - src.storage_enhanced - INFO - Backup directory: C:\Users\Administrator\.meta-memory\backups
+2026-03-07 14:21:06,340 - src.storage_enhanced - INFO - Enhanced storage initialized: C:\Users\ADMINI~1\AppData\Local\Temp\tmp4jj23mmy\test.db
+2026-03-07 14:21:06,352 - src.vector_search - WARNING - sentence-transformers not installed. Vector search will be disabled.
+2026-03-07 14:21:06,352 - src.vector_search - INFO - To enable vector search: pip install sentence-transformers
+2026-03-07 14:21:06,352 - src.predictive_wakeup - INFO - Predictive wakeup system initialized
+2026-03-07 14:21:06,353 - src.three_layer_memory - INFO - Three-layer memory system initialized
+2026-03-07 14:21:06,387 - src.storage_enhanced - INFO - FTS table and triggers created
+2026-03-07 14:21:06,387 - src.storage_enhanced - INFO - Database initialized with enhanced schema
+2026-03-07 14:21:06,387 - src.core - INFO - Database initialized
+2026-03-07 14:21:06,387 - src.core - INFO - MetaMemoryEnhanced initialized at C:\Users\ADMINI~1\AppData\Local\Temp\tmp4jj23mmy\test.db
+2026-03-07 14:21:06,387 - src.core - INFO - Config: {
+  "storage": {
+    "compression_algorithm": "zlib",
+    "compression_level": 3,
+    "auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backups": 7,
+    "backup_path": "~/.meta-memory/backups"
+  },
+  "retrieval": {
+    "enable_fts": true,
+    "enable_vector_search": true,
+    "vector_model": "all-MiniLM-L6-v2",
+    "hybrid_search_weight": 0.7,
+    "cache_size": 100,
+    "cache_ttl_seconds": 3600
+  },
+  "optimization": {
+    "target_token_reduction": 0.5,
+    "auto_forget_enabled": true,
+    "forget_threshold": 0.3,
+    "min_importance_active": 0.5,
+    "wakeup_prediction": true,
+    "decay_enabled": true,
+    "decay_rate": 0.95
+  },
+  "multi_agent": {
+    "enabled": true,
+    "default_permission": "read",
+    "conflict_resolution": "timestamp",
+    "sync_interval_seconds": 300
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 30,
+    "performance_monitoring": true,
+    "health_check_interval_hours": 1,
+    "vector_audit_enabled": true,
+    "maintenance_automation": true
+  },
+  "memory_layers": {
+    "enabled": true,
+    "episodic_retention_days": 30,
+    "semantic_retention_days": 365,
+    "procedural_retention_days": 180
+  }
+}
+2026-03-07 14:21:06,390 - src.storage_enhanced - INFO - Stored memory 22e6590a021ad8b4 (layer: semantic, type: fact, importance: 0.50)
+2026-03-07 14:21:06,405 - src.core - INFO - Remembered memory 22e6590a021ad8b4 (layer: semantic, type: fact)
+2026-03-07 14:21:06,418 - src.predictive_wakeup - INFO - Predictive wakeup: context=Test..., predicted=1, woken=0
+2026-03-07 14:21:06,418 - src.core - INFO - Recalled 1 memories for query: Test
+2026-03-07 14:21:06,421 - src.storage_enhanced - INFO - Stored memory a1c6f231558f00f0 (layer: semantic, type: fact, importance: 0.42)
+2026-03-07 14:21:06,435 - src.core - INFO - Remembered memory a1c6f231558f00f0 (layer: semantic, type: fact)
+2026-03-07 14:21:06,436 - src.core - INFO - Shared memory a1c6f231558f00f0 with agent agent2 (permission: read)
+2026-03-07 16:37:20,215 - src.enhanced_core - INFO - ✅ 数据库初始化完成
+2026-03-07 16:37:51,991 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 16:37:51,991 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 16:37:52,719 - huggingface_hub.utils._http - WARNING - '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-07 16:37:52,720 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-07 16:37:53,722 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-03-07 16:37:54,478 - huggingface_hub.utils._http - WARNING - '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-03-07 16:37:54,479 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-07 16:37:55,482 - src.enhanced_core - ERROR - ❌ 混合搜索引擎初始化失败: 'gbk' codec can't encode character '\u26a0' in position 0: illegal multibyte sequence
+2026-03-07 16:37:55,482 - src.enhanced_core - INFO - 🚀 增强版元记忆系统初始化完成 (v3.0)
+2026-03-07 16:37:55,482 - src.enhanced_core - INFO -   数据库: practical_test.db
+2026-03-07 16:37:55,482 - src.enhanced_core - INFO -   混合搜索: 不可用
+2026-03-07 16:37:55,482 - src.enhanced_core - INFO -   反思系统: 启用
+2026-03-07 16:37:55,483 - src.enhanced_core - INFO -   健康监控: 启用
+2026-03-07 16:37:55,483 - src.enhanced_core - INFO -   上下文锚点: 启用
+2026-03-07 16:37:55,492 - src.enhanced_core - INFO - ✅ 记忆存储成功: d858a147f3a36ed6 (preference)
+2026-03-07 16:37:55,499 - src.enhanced_core - INFO - ✅ 记忆存储成功: ec1b0aeb831d0349 (decision)
+2026-03-07 16:37:55,509 - src.enhanced_core - INFO - ✅ 记忆存储成功: da6f82a63ce19f0d (goal)
+2026-03-07 16:37:55,517 - src.enhanced_core - INFO - ✅ 记忆存储成功: 6e4fff878ab43275 (lesson)
+2026-03-07 16:37:55,528 - src.enhanced_core - INFO - 🩺 开始健康检查...
+2026-03-07 16:37:55,541 - src.enhanced_core - ERROR - ❌ 健康检查失败: 'MetaMemoryEnhanced' object has no attribute '_calculate_compression_ratio'
+2026-03-07 16:41:01,937 - src.enhanced_core - INFO - ✅ 数据库初始化完成
+2026-03-07 16:41:20,085 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 16:41:20,086 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 16:41:20,668 - huggingface_hub.utils._http - WARNING - '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-07 16:41:20,668 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-07 16:41:21,673 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-03-07 16:41:22,295 - huggingface_hub.utils._http - WARNING - '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-03-07 16:41:22,295 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-07 16:41:23,296 - src.enhanced_core - ERROR - ❌ 混合搜索引擎初始化失败: 'gbk' codec can't encode character '\u26a0' in position 0: illegal multibyte sequence
+2026-03-07 16:41:23,297 - src.enhanced_core - INFO - 🚀 增强版元记忆系统初始化完成 (v3.0)
+2026-03-07 16:41:23,297 - src.enhanced_core - INFO -   数据库: key_test.db
+2026-03-07 16:41:23,297 - src.enhanced_core - INFO -   混合搜索: 不可用
+2026-03-07 16:41:23,297 - src.enhanced_core - INFO -   反思系统: 启用
+2026-03-07 16:41:23,298 - src.enhanced_core - INFO -   健康监控: 启用
+2026-03-07 16:41:23,298 - src.enhanced_core - INFO -   上下文锚点: 启用
+2026-03-07 16:41:23,307 - src.enhanced_core - INFO - ✅ 记忆存储成功: d74d8dbfb7ad9b24 (fact)
+2026-03-07 16:41:23,317 - src.enhanced_core - INFO - ✅ 记忆存储成功: 8614183c3f367dc5 (fact)
+2026-03-07 16:41:23,328 - src.enhanced_core - INFO - ✅ 记忆存储成功: a4853a3cac0bca98 (fact)
+2026-03-07 16:41:23,337 - src.enhanced_core - INFO - 🩺 开始健康检查...
+2026-03-07 16:41:23,349 - src.enhanced_core - ERROR - ❌ 健康检查失败: 'MetaMemoryEnhanced' object has no attribute '_calculate_compression_ratio'
